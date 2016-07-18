@@ -179,7 +179,7 @@ minetest.register_node("myminegate:portal", {
 	pointable = false,
 	walkable = true,
 	drop = "",
-	groups = {cracky = 2,not_in_creative_inventory = 0},
+	groups = {cracky = 2,not_in_creative_inventory = 1},
 	selection_box = pwc_box,
 	collision_box = pwc_box,
 
@@ -217,7 +217,7 @@ minetest.register_node("myminegate:center", {
 	walkable = false,
 	drop = "",
 	light_source = 14,
-	groups = {cracky = 2,not_in_creative_inventory = 0},
+	groups = {cracky = 2,not_in_creative_inventory = 1},
 	node_box = {
 		type = "fixed",
 		fixed = {
@@ -252,7 +252,7 @@ minetest.register_node("myminegate:centerb", {
 	pointable = false,
 	drop = "",
 	light_source = 14,
-	groups = {cracky = 2,not_in_creative_inventory = 0},
+	groups = {cracky = 2,not_in_creative_inventory = 1},
 	node_box = {
 		type = "fixed",
 		fixed = {
@@ -284,7 +284,7 @@ minetest.register_node("myminegate:hidden", {
 	paramtype2 = "facedir",
 	pointable = false,
 	drop = "",
-	groups = {cracky = 2,not_in_creative_inventory = 0},
+	groups = {cracky = 2,not_in_creative_inventory = 1},
 	node_box = {
 		type = "fixed",
 		fixed = {
